@@ -4,9 +4,15 @@ import '../styles/components/socialnetwork.sass'
 
 
 const socialNetWorks = [
-    { name: "linkedin", icon: <FaLinkedinIn />},
-    { name: "github", icon: <FaGithub />},
-    { name: "instagram", icon: <FaInstagram />},
+    { name: "linkedin", icon: <a href="#" target="_blank">
+      <FaLinkedinIn />
+    </a>},
+    { name: "github", icon: <a href="https://github.com/PedroHP-queiroz" target="_blank">
+      <FaGithub />
+    </a>},
+    { name: "instagram", icon: <a href="https://www.instagram.com/ph__pq__/" target="_blank">
+      <FaInstagram />
+    </a>},
 ]
 
 const SocialNetwork = () => {

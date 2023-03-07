@@ -18,8 +18,10 @@
         position: absolute
         top: -5.5rem
         align-items: center
-        box-shadow: 4px 4px 8px rgba(100, 100, 100, 0.147)
+        box-shadow: 8px 16px 8px rgba(0, 0, 0, 0.5)
 
+    .btn
+        @include mixins.btn
 
     .title
         color: variables.$text-color-secondary
@@ -27,9 +29,8 @@
         border-radius: variables.$card-border-radius
         margin-top: 12rem
         padding: .8rem 1.2rem
+        display: flex
 
-    .btn
-        @include mixins.btn
         
 
 
